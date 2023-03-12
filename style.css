@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100vw;
+}
+
+.container_cabecalho {
+  display: flex;
+  background-color: rgb(233, 111, 30);
+}
+.container_titulo {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.titulo_primario {
+  color: white;
+  padding: 10px 0;
+  font-size: 1em;
+  width: 800px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.container_banner {
+  width: 100vw;
+  background-color: rgb(75, 74, 74);
+}
+
+.caixa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+.lista_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.itens {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 15px;
+}
+.itens:hover {
+  text-decoration: underline;
+}
+.subtitulo p {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 1.5em;
+  color: white;
+}
+
+.tecnologia {
+  color: rgb(91, 230, 218);
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.subtitulo a {
+  display: flex;
+  background-color: rgb(233, 111, 30);
+  color: white;
+  margin-top: 1em;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.7s;
+  box-shadow: 5px 5px 5px black;
+}
+
+.subtitulo a:hover {
+  background-color: rgb(202, 101, 5);
+  transform: scale(1.1);
+}
+
+.banner {
+  transition: 0.7s;
+  text-align: end;
+  
+}
+.banner:hover {
+  transform: scale(1.05);
+}
+.imagem_banner {
+  width: 70%;
+  
+}
+.container_legenda {
+  background-color: rgb(91, 230, 218);
+  padding: 10px 0;
+  color: rgb(87, 82, 82);
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+.container_solucoes {
+  padding: 4em;
+}
+.titulo_solucoes {
+  font-size: 2em;
+  width: 600px;
+  text-align: center;
+  padding-bottom: 3em;
+  text-transform: uppercase;
+  margin: 0 auto;
+
+}
+
+.titulo_solucoes span {
+    font-weight: bold;
+    
+}
+
+.icones {
+  width: 60px;
+  border-radius: 100px;
+}
+
+figure {
+  margin-left: 10px;
+}
+.figures_solucoes {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+figcaption {
+  font-size: .9em;
+  padding-top: .5em;
+}
+
+.container_beneficios {
+  width: 100vw;
+  background-color: rgb(202, 101, 5);
+  padding-bottom: 4em;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+  
+  
+}
+
+.titulo_beneficios {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2em 0;
+  color: white;
+  font-size: 2em;
+}
+
+.lista_beneficios {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+    
+}
+
+.imagem_beneficios {
+  width: 50%;
+  text-align: end;
+}
+
+.lista_beneficios p:nth-child(1) {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.lista_beneficios p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.itens_beneficios {
+  line-height: 2em;
+  
+}
+
+.itens_beneficios li:before {
+  content: "⚪";
+    
+}
+
+
+.container_about {
+  padding: 4em 0;
+  background-color: rgb(75, 74, 74);
+}
+.titulo_about {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2em;
+  color: white;
+}
+
+.lista_about {
+  display: flex;
+  width: 800px;
+  margin: 0 auto; 
+  line-height: 1.2em;
+}
+
+.itens_about p {
+  width: 100%;
+  padding-bottom: 2em;
+  color: white;
+  font-size: .9em;
+ 
+}
+
+.itens_about li {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+}
+
+.icone_check {
+  width: 40%;
+  margin-left: 2em;
+  border-radius: 50%;  
+}
+
+ 
+.container_clientes {
+  padding: 4em;
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+.titulo_clientes {
+  text-transform: uppercase;
+  color:rgb(202, 101, 5);
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1.5em;
+}
+
+
+
+.logo_clientes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.container_contato {
+  padding: 4em;
+  width: 100vw; 
+  margin: 0 auto;
+  background-color: rgb(91, 230, 218);
+}
+
+.titulo_contato {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(87, 82, 82);
+  font-size: 2em;
+  padding-bottom: 2em;
+}
+#contato {
+  display: inline;
+  justify-content: space-between;
+}
+.container_form {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-right: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  justify-content: space-between;
+  outline-color: rgb(23, 153, 142);
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent; 
+    
+}
+
+.mensagem{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+textarea {
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  outline-color: rgb(23, 153, 142);
+  
+}
+
+::placeholder {
+  padding: 0 1em;
+}
+.btn_mensagem {
+  width: 800px;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: end;
+}
+
+.btn_mensagem a{
+  background-color: rgb(202, 101, 5);
+  color: white;
+  margin-top: 1em;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.7s;
+  
+}
+
+.btn_mensagem a:hover {
+  box-shadow: 5px 5px 5px black;
+}
+
+footer {
+  background-color: rgb(87, 82, 82);
+  text-align: center;
+  padding: 10px;
+}
